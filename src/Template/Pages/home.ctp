@@ -131,14 +131,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-centered text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-play wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <i class="glyphicon play fa fa-4x fa-play wow bounceIn text-primary" data-wow-delay=".1s"></i>
                         <h3>Television</h3>
                         <p class="text-muted">TV services with the latest channels!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-right text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-phone wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <i class="glyphicon fa fa-4x fa-phone wow bounceIn text-primary" data-wow-delay=".3s"></i>
                         <h3>VOIP Phone</h3>
                         <p class="text-muted">Business-class VOIP phone service via dependable, high-capacity Optical Fiber.</p>
                     </div>
