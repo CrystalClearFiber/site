@@ -207,7 +207,7 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Video Tools
+                                    Troubleshooting
                                 </div>
                             </div>
                         </div>
