@@ -83,7 +83,6 @@
             <div class="header-content-inner">
                 <!--<h1>A Fiber Optic Service Provider</h1>-->
                 <br><br><br><br><br><br>
-                <!--<a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>-->
             </div>
         </div>
     </header>
@@ -92,9 +91,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">The Technicians of Crystal Clear</h2>
+                    <h2 class="section-heading">Meet the Technicians</h2>
                     <hr class="light">
-                    <p class="text-faded"></p>
+                    <p class="text-faded">Our technicians and field office are located onsite in the Tollgate Village. This offers better response times when there is an issue. It also allows us to provide a 30 minute arrival window as opposed to having to wait all morning or afternoon for a technician to arrive.</p>
                 </div>
             </div>
         </div>
@@ -125,14 +124,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <h3>Jaremiah</h3>
+                        <h3>Jeremiah</h3>
                         <img class="teamphoto" src="img/blank_profile.png" alt="team member photo">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <h3>Jason</h3>
-                        <img class="teamphoto" src="img/blank_profile.png" alt="team member photo">>
+                        <img class="teamphoto" src="img/blank_profile.png" alt="team member photo">
                     </div>
                 </div>
             </div>
