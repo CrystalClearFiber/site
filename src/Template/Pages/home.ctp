@@ -105,7 +105,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">Fiber Optics</h2>
                     <hr class="light">
                     <p class="text-faded">The backbone of this new connectivity is Fiber-To-The-Home, a reliable, super-capacity conduit for Voice, Data, and Video.  Crystal Clear Technologies partners with leading developers to provide uncompromised quality in comprehensive, community-based Fiber-To-The-Home systems.</p>
                     <a href="#" class="btn btn-default btn-xl">Get Started!</a>
@@ -129,14 +129,16 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-signal wow bounceIn text-primary"></i>
                         <h3>Internet</h3>
-                        <p class="text-muted">Internet speeds up to 100 megabits per second!</p>
+                        <p class="text-muted">Built on point-to-point fiber to the home architecture, Crystal Clear provides high quality internet service delivering speeds up to 100 megabits per second!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-centered text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-play wow bounceIn text-primary" data-wow-delay=".1s"></i>
                         <h3>Television</h3>
-                        <p class="text-muted">TV services with the latest channels!</p>
+                        <p class="text-muted">Crystal Clear's TV and High Definition TV (HDTV) services offer the broadest selection of channels and features available. With a variety of packages and receivers to choos from, you can define the viewing options that best fit your family's needs</p>
+                        <br>
+                        <p class="text-muted">Over 310 Channels - All Local Channels - Family Packages - Sports Packages - Movie & Specialty Packages - Latino Packages - All National Cable Channels Available</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-right text-center">
@@ -144,6 +146,9 @@
                         <i class="fa fa-4x fa-phone wow bounceIn text-primary" data-wow-delay=".3s"></i>
                         <h3>VOIP Phone</h3>
                         <p class="text-muted">Business-class VOIP phone service via dependable, high-capacity Optical Fiber.</p>
+                        <br>
+                        <p class="text-muted">Features include:</p>
+                        <p class="text-muted">Long Distance - Call Waiting - Call Forwarding - Messaging - Three-way Calling - Multi-line Systems
                     </div>
                 </div>
             </div>
@@ -228,15 +233,6 @@
             </div>
         </div>
     </section>
-
-    <!--<aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
-            </div>
-        </div>
-    </aside>-->
 
     <section id="contact">
         <div class="container">
