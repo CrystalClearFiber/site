@@ -111,7 +111,6 @@
                     <h2 class="section-heading">Fiber Optics</h2>
                     <hr class="light">
                     <p class="text-faded">The backbone of this new connectivity is Fiber-To-The-Home, a reliable, super-capacity conduit for Voice, Data, and Video.  Crystal Clear Technologies partners with leading developers to provide uncompromised quality in comprehensive, community-based Fiber-To-The-Home systems.</p>
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
                 </div>
             </div>
         </div>

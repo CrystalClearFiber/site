@@ -100,23 +100,23 @@
                     <hr class="light">
                     <p class="text-faded">Based in Middle Tennessee, Crystal Clear Technologies began with a vision for providing reliable, comprehensive Fiber-To-The-Home service–without the downsides that typically plague this growing approach to community living.
 
-Crystal Clear Technologies was founded by a team of successful builders, developers, engineers, Information Technology professionals and project managers whose individual histories reflect the highest standards in those fields. Together, they enable a comprehensive, coordinated approach to Fiber-To-The-Home development, one in which each technology, every step from design to support, is truly an in-house specialty. As a Crystal Clear community reaches completion, there are no “loose ends” waiting to be resolved. Developers have an easy-to-manage, value-adding package of business-class services to offer. And homeowners have the entire range of connectivity services built into a reliable, cost-effective system with on-site support.
-</p>
+                    Crystal Clear Technologies was founded by a team of successful builders, developers, engineers, Information Technology professionals and project managers whose individual histories reflect the highest standards in those fields. Together, they enable a comprehensive, coordinated approach to Fiber-To-The-Home development, one in which each technology, every step from design to support, is truly an in-house specialty. As a Crystal Clear community reaches completion, there are no “loose ends” waiting to be resolved. Developers have an easy-to-manage, value-adding package of business-class services to offer. And homeowners have the entire range of connectivity services built into a reliable, cost-effective system with on-site support.
+                    </p>
 
-<h3>Jamie Spurlock</h3>
+                    <h3>Jamie Spurlock</h3>
 
-<p>
-Over the course of thirteen years, Jamie Spurlock built a Middle-Tennessee IT company from bare-bones startup to an award-winning solutions provider serving the southeast US. Eventually employing over 200, the company provided the entire range of IT solutions for a broad range of customers in industries such as banking, utility, medical and legal. Infrastructure, voice, data, video, wireless, networking and security solutions were designed, implemented and supported in single-location and multi-campus settings. Jamie also developed innovative cost/pricing models which added value for many customers. He brings a unique brand of enthusiasm and a broad range of expertise to each Crystal Clear project. With the broad range of services packaged in our projects, Jamie’s depth of experience in both IT and cost management gives us a unique edge in designing and building tomorrow’s communities. 
-</p>
+                    <p>
+                    Over the course of thirteen years, Jamie Spurlock built a Middle-Tennessee IT company from bare-bones startup to an award-winning solutions provider serving the southeast US. Eventually employing over 200, the company provided the entire range of IT solutions for a broad range of customers in industries such as banking, utility, medical and legal. Infrastructure, voice, data, video, wireless, networking and security solutions were designed, implemented and supported in single-location and multi-campus settings. Jamie also developed innovative cost/pricing models which added value for many customers. He brings a unique brand of enthusiasm and a broad range of expertise to each Crystal Clear project. With the broad range of services packaged in our projects, Jamie’s depth of experience in both IT and cost management gives us a unique edge in designing and building tomorrow’s communities. 
+                    </p>
 
-<h3>James Carbine</h3>
+                    <h3>James Carbine</h3>
 
-<p>After twenty years living and working in Middle Tennessee, James Carbine is one of the area’s most respected builder/developers. Today, more than 3,500 upscale homes bear the unmistakable mark of quality that James and his brother, Denzel, bring to each project.
+                    <p>After twenty years living and working in Middle Tennessee, James Carbine is one of the area’s most respected builder/developers. Today, more than 3,500 upscale homes bear the unmistakable mark of quality that James and his brother, Denzel, bring to each project.
 
-Combining his expertise as a builder/developer with a solid background in financial planning and accounting, James is the company’s primary operative in dealing with local government planning and zoning commissions. As a Certified Public Accountant with substantial real estate experience, he is also heavily involved in the sales and financial aspects of each Crystal Clear project.
+                    Combining his expertise as a builder/developer with a solid background in financial planning and accounting, James is the company’s primary operative in dealing with local government planning and zoning commissions. As a Certified Public Accountant with substantial real estate experience, he is also heavily involved in the sales and financial aspects of each Crystal Clear project.
 
-James’ credentials include serving as the President of the Home Builders Association of Tennessee in 2005 and serving as a Director of the organization for more than 10 years. James also served as President of the Homes Builders Association of Middle Tennessee in 1999 and has been involved with the organization for more than eleven years. James holds a BSBA from Auburn University and regularly speaks at national conferences about bringing technology into traditional neighborhood communities.</p>
-</p>
+                    James’ credentials include serving as the President of the Home Builders Association of Tennessee in 2005 and serving as a Director of the organization for more than 10 years. James also served as President of the Homes Builders Association of Middle Tennessee in 1999 and has been involved with the organization for more than eleven years. James holds a BSBA from Auburn University and regularly speaks at national conferences about bringing technology into traditional neighborhood communities.</p>
+                    </p>
                     <a href="/" class="btn btn-default btn-xl">Return Home</a>
                 </div>
             </div>

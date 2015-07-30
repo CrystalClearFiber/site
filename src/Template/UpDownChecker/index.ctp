@@ -141,7 +141,7 @@ function get_packet_info($string){
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <h3>Tollgate Village Windstream Circuit</h3>
-                        <i id="ping2" class="fa fa-4x fa-remove wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <i id="ping2" class="fa fa-4x fa-check wow bounceIn text-primary" data-wow-delay=".1s"></i>
                     </div>
                 </div>
             </div>
