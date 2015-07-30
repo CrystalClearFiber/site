@@ -168,16 +168,20 @@ function get_packet_info($string){
 
             if (ATT == 0 || ATT == '0'){
                 document.getElementById("ping1").className = "fa fa-4x fa-check wow bounceIn text-primary";
+                document.getElementById("ping1").style.color = "green";  
             }
             else{
                 document.getElementById("ping1").className = "fa fa-4x fa-remove wow bounceIn text-primary";
+                document.getElementById("ping1").style.color = "red";  
             }
 
             if (WIN == 0 || WIN == '0'){
-                document.getElementById("ping2").className = "fa fa-4x fa-check wow bounceIn text-primary";       
+                document.getElementById("ping2").className = "fa fa-4x fa-check wow bounceIn text-primary";
+                document.getElementById("ping2").style.color = "green";       
             }
             else{
                 document.getElementById("ping2").className = "fa fa-4x fa-remove wow bounceIn text-primary";
+                document.getElementById("ping2").style.color = "red";
             }
         }
     </script>

@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = '::Crystal Clear Technologies ';
+$cakeDescription = '::Crystal Clear Technologies::';
 ?>
 <!DOCTYPE html>
 <html>

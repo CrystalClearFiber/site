@@ -82,6 +82,9 @@
                         <a class="page-scroll" href="#portfolio">Learn More</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#updowncheck">Check Network</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -234,14 +237,14 @@
         </div>
     </section>
 
-    <aside class="bg-dark">
+    <section id="updowncheck" class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Outage and Downtime Report</h2>
                 <a href="/UpDownChecker" class="btn btn-default btn-xl wow tada">Check the Network</a>
             </div>
         </div>
-    </aside>
+    </section>
 
     <section id="contact">
         <div class="container">
