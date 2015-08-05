@@ -40,32 +40,9 @@
 
     <style>
         .teamphoto{
-            height: 300px;
-            width: 200px;
-            border-style:solid;
-            /*border-color:#f05f40;*/
-            border-width:1px;
+            height: 200px;
+            width: 150px;
         }
-     
-    #crossfade {
-        position:relative;
-        height:250px;
-        width:400px;
-    }
-    #crossfade img {
-        position:absolute;
-        left:0;
-        opacity: 1;
-        -webkit-transition: opacity .3s ease-in-out;
-        -moz-transition: opacity .3s ease-in-out;
-        -o-transition: opacity .3s ease-in-out;
-        -ms-transition: opacity .3s ease-in-out;    
-        transition: opacity .3s ease-in-out;
-    }
-     
-    #crossfade img.top:hover {
-        opacity:0;
-    }
     </style>
 
 </head>
@@ -88,9 +65,6 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="/">Home</a>
-                    </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
@@ -125,7 +99,7 @@
         </div>
     </section>
 
-    <section id="services" style="background-color:#cccccc;">
+    <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -138,40 +112,26 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <h3 style="color:#f05f40">Matt</h3>
-                        <div id="crossfade">
-                            <img class="bottom teamphoto" src="https://s3.amazonaws.com/cctimages/siteimages/Matt/matt2-200x300.JPG" />
-                            <img class="top teamphoto" src="https://s3.amazonaws.com/cctimages/siteimages/Matt/matt1-200x300.JPG" />
-                        </div>
+                        <h3>Matt</h3>
+                        <img class="teamphoto bounceIn" src="img/blank_profile.png" alt="team member photo">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <h3 style="color:#f05f40">Lucas</h3>
-                        <div id="crossfade">
-                            <img class="bottom teamphoto" src="https://s3.amazonaws.com/cctimages/siteimages/Lucas/lucas2-200x300.JPG" />
-                            <img class="top teamphoto" src="https://s3.amazonaws.com/cctimages/siteimages/Lucas/lucas1-200x300.JPG" />
-                        </div>
+                        <h3>Lucas</h3>
+                        <img class="teamphoto" src="img/blank_profile.png" alt="team member photo">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <h3 style="color:#f05f40">Jeremiah</h3>
-                        <!--<img class="teamphoto" src="img/blank_profile.png" alt="team member photo">-->
-                        <div id="crossfade">
-                            <img class="bottom teamphoto" src="https://s3.amazonaws.com/cctimages/siteimages/Jeremiah/jeremiah.jpg" />
-                            <img class="top teamphoto" src="https://s3.amazonaws.com/cctimages/siteimages/Jeremiah/jeremiah.jpg" />
-                        </div>
+                        <h3>Jeremiah</h3>
+                        <img class="teamphoto" src="img/blank_profile.png" alt="team member photo">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <h3 style="color:#f05f40">Jason</h3>
-                        <!--<img class="teamphoto" src="img/blank_profile.png" alt="team member photo">-->
-                        <div id="crossfade">
-                            <img class="bottom teamphoto" src="https://s3.amazonaws.com/cctimages/siteimages/Jason/jason2-200x300.JPG" />
-                            <img class="top teamphoto" src="https://s3.amazonaws.com/cctimages/siteimages/Jason/jason1-200x300.JPG" />
-                        </div>
+                        <h3>Jason</h3>
+                        <img class="teamphoto" src="img/blank_profile.png" alt="team member photo">
                     </div>
                 </div>
             </div>
