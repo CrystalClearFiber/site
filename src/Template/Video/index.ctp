@@ -70,10 +70,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a class="page-scroll" href="/">Home</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#routerreboot">Router Reboot</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#ontreboot">ONT Reboot</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#DTVreboot">DirecTV Receiver Reboot</a>
                     </li>
                 </ul>
             </div>
@@ -107,7 +113,7 @@
                 <div class="col-lg-3 col-md-6 col-centered text-center">
                     <div class="service-box">
                         <h3 id="routerreboot">Reboot Router</h3>
-                        <video controls="controls" width="800" height="600" name="Video Name" src="https://s3.amazonaws.com/cctvideo/HOWTO-rebootCCTrouter.mov"></video>
+                        <video controls="controls" width="800" height="600" name="Video Name" src="https://s3.amazonaws.com/cctvideo/NEWSITEVIDS/router.MP4"></video>
                     </div>
                 </div>
             </div>
@@ -115,7 +121,15 @@
                 <div class="col-lg-3 col-md-6 col-centered text-center">
                     <div class="service-box">
                         <h3 id="ontreboot">Reboot Optical Network Terminal (ONT)</h3>
-                        <video controls="controls" width="800" height="600" name="Video Name" src="https://s3.amazonaws.com/cctvideo/HOWTO-rebootCCTont.mov"></video>
+                        <video controls="controls" width="800" height="600" name="Video Name" src="https://s3.amazonaws.com/cctvideo/NEWSITEVIDS/ont.MP4"></video>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-centered text-center">
+                    <div class="service-box">
+                        <h3 id="DTVreboot">Reboot DirecTV Receiver</h3>
+                        <video controls="controls" width="800" height="600" name="Video Name" src="https://s3.amazonaws.com/cctvideo/NEWSITEVIDS/dtvreceiver.MP4"></video>
                     </div>
                 </div>
             </div>
