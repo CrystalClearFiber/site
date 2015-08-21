@@ -104,6 +104,16 @@
         </div>
     </header>
 
+    <section id="reviews" style="height: 400px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center" id="thereview" style="font-size: 24px; font-style: oblique;">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
@@ -161,12 +171,12 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="/History" class="portfolio-box">
+                    <a href="/Blog" class="portfolio-box">
                         <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    History
+                                    Blog
                                 </div>
                             </div>
                         </div>
@@ -278,6 +288,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+    <script src="js/review.fade.js"></script>
 
 </body>
 

@@ -6,7 +6,7 @@ use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 use Cake\Controller\Controller;
 
-class HistoryController extends AppController
+class BlogController extends AppController
 {
     public function index(){
 
