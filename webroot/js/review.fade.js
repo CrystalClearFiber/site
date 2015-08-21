@@ -14,8 +14,8 @@ function next2(){
 };
 
 function next3(){
-  $("#thereview").text('"Overall happy with the service so far."').fadeIn(4000);
-  $("#thereview").text('"Overall happy with the service so far."').fadeOut(2000, next4);
+  $("#thereview").text('"Overall happy with the service so far..."').fadeIn(4000);
+  $("#thereview").text('"Overall happy with the service so far..."').fadeOut(2000, next4);
 };
 
 function next4(){
