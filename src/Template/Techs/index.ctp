@@ -119,7 +119,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Meet the Technicians</h2>
                     <hr class="light">
-                    <p class="text-faded">Our technicians and field office are located onsite in the Tollgate Village. This offers better response times when there is an issue. It also allows us to provide a 30 minute arrival window as opposed to having to wait all morning or afternoon for a technician to arrive.</p>
+                    <p class="text-faded">Our technicians and field office are located on-site in the Tollgate Village.  This offers better response times and allows us to provide a 30 minute arrival window, as opposed to having to wait all morning or afternoon for a technician to arrive.</p>
                 </div>
             </div>
         </div>

@@ -120,7 +120,8 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Fiber Optics</h2>
                     <hr class="light">
-                    <p class="text-faded">The backbone of this new connectivity is Fiber-To-The-Home, a reliable, super-capacity conduit for Voice, Data, and Video.  Crystal Clear Technologies partners with leading developers to provide uncompromised quality in comprehensive, community-based Fiber-To-The-Home systems.</p>
+                    <p class="text-faded">Technology has opened a world of possibilities for today’s families.  Services that are developed for business environments are now made available for the home.  The backbone of this new connectivity is Fiber-To-The-Home, a reliable, super-capacity conduit for Voice, Data and Video.  Crystal Clear partners with leading developers to provide uncompromising quality in comprehensive, community-based Fiber-To-The-Home systems.</p>
+                    <p class="text-faded">Optical Fiber consists of thin, glass threads that transfer massive amounts of data and information on a point-to-point infrastructure.  Using light as a driving force, this reliable and secure connectivity provides users less interference and higher speeds than traditional copper wiring.  As more communities are moving towards Fiber-To-The-Home, optical fiber is providing value to the future and to your home.</p>                
                 </div>
             </div>
         </div>
@@ -141,26 +142,26 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-signal wow bounceIn text-primary"></i>
                         <h3>Internet</h3>
-                        <p class="text-muted">Built on point-to-point fiber to the home architecture, Crystal Clear provides high quality internet service delivering speeds up to 100 megabits per second!</p>
+                        <p class="text-muted">Crystal Clear provides high quality internet service delivering speeds of up to 100 megabits per second!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-centered text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-play wow bounceIn text-primary" data-wow-delay=".1s"></i>
                         <h3>Television</h3>
-                        <p class="text-muted">Crystal Clear's TV and High Definition TV (HDTV) services offer the broadest selection of channels and features available. With a variety of packages and receivers to choos from, you can define the viewing options that best fit your family's needs</p>
+                        <p class="text-muted">Crystal Clear’s TV and High Definition TV (HDTV) services offer the broadest selection of channels and features available.  With a variety of packages and receivers to choose from, you can define the viewing options that best fit your family’s needs.</p>
                         <br>
-                        <p class="text-muted">Over 310 Channels - All Local Channels - Family Packages - Sports Packages - Movie & Specialty Packages - Latino Packages - All National Cable Channels Available</p>
+                        <p class="text-muted">Over 310 Channels Available -  All Local Channels  -  Family Packages  -  Sports Packages  -  Movie & Specialty Packages  -  Latino Packages  -  All National Cable Channels Available  </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-right text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-phone wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>VOIP Phone</h3>
-                        <p class="text-muted">Business-class VOIP phone service via dependable, high-capacity Optical Fiber.</p>
+                        <h3>Voice</h3>
+                        <p class="text-muted">Business - class VoIP phone service is available via dependable, high-capacity Optical Fiber.</p>
                         <br>
                         <p class="text-muted">Features include:</p>
-                        <p class="text-muted">Long Distance - Call Waiting - Call Forwarding - Messaging - Three-way Calling - Multi-line Systems
+                        <p class="text-muted">Long Distance  -  Call Waiting  -  Call Forwarding  -  Messaging  -  Three-way Calling  - Multi-line Systems</p>
                     </div>
                 </div>
             </div>
@@ -171,12 +172,12 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="/Blog" class="portfolio-box">
+                    <a href="/History" class="portfolio-box">
                         <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Blog
+                                    History
                                 </div>
                             </div>
                         </div>
@@ -231,12 +232,12 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="/Payment" class="portfolio-box">
+                    <a href="/CustPortal" class="portfolio-box">
                         <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Make a Payment
+                                    Customer Portal
                                 </div>
                             </div>
                         </div>
