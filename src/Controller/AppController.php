@@ -37,8 +37,8 @@ class AppController extends Controller
     public function initialize()
     {
         parent::initialize();
-        $this->loadComponent('Flash');
-        $this->loadComponent('Auth', [
+        //$this->loadComponent('Flash');
+        /*$this->loadComponent('Auth', [
             'loginRedirect' => [
                 'controller' => 'Articles',
                 'action' => 'index'
@@ -48,11 +48,11 @@ class AppController extends Controller
                 'action' => 'display',
                 'home'
             ]
-        ]);
+        ]);*/
     }
-    public function beforeFilter(Event $event)
-    {
-    $this->Auth->allow(['index', 'view', 'display']);
-    }
+    //public function beforeFilter(Event $event)
+    //{
+    //$this->Auth->allow(['index', 'view', 'display']);
+    //}
 }
 

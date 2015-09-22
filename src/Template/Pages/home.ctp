@@ -87,6 +87,22 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                          Login <span class="caret"></span>
+                        </a>
+                        <ul role="presentation" class="dropdown-menu">
+                            <li>
+                                <a href="https://voice.crystalclearfiber.com/portal/">Voice</a>
+                            </li>
+                            <li>
+                                <a href="https://cableanytime.com/CrystalClearFiber/">Internet</a>
+                            </li>
+                            <li>
+                                <a href="https://www.directv.com/DTVAPP/login/login.jsp">DirecTV</a>
+                            </li>
+                        </ul>
+                      </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -173,7 +189,7 @@
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
                     <a href="/History" class="portfolio-box">
-                        <img src="img/portfolio3/1.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio4/hist1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -185,7 +201,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="/FAQ" class="portfolio-box">
-                        <img src="img/portfolio3/2.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio4/FAQ1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -197,7 +213,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="/news" class="portfolio-box">
-                        <img src="img/portfolio3/3.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio4/News1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -209,7 +225,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="/Techs" class="portfolio-box">
-                        <img src="img/portfolio3/4.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio4/tech1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -221,7 +237,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="/video" class="portfolio-box">
-                        <img src="img/portfolio3/5.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio4/Vids1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -233,7 +249,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="/CustPortal" class="portfolio-box">
-                        <img src="img/portfolio3/6.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio4/Cust1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -247,7 +263,7 @@
         </div>
     </section>
 
-    <section id="updowncheck" class="bg-dark">
+    <section id="updowncheck" class="bg-primary">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Outage and Downtime Report</h2>

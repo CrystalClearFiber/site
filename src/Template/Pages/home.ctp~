@@ -87,6 +87,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a href="/CustPortal">Login</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -173,7 +176,7 @@
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
                     <a href="/History" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio3/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -185,7 +188,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="/FAQ" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio3/2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -197,7 +200,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="/news" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio3/3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -209,7 +212,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="/Techs" class="portfolio-box">
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio3/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -221,7 +224,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="/video" class="portfolio-box">
-                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio3/5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -233,7 +236,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="/CustPortal" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio3/6.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -247,7 +250,7 @@
         </div>
     </section>
 
-    <section id="updowncheck" class="bg-dark">
+    <section id="updowncheck" class="bg-primary">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Outage and Downtime Report</h2>
