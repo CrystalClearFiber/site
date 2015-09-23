@@ -66,7 +66,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="/">Crystal Clear Technologies</a>
+                <a class="navbar-brand page-scroll" href="/">Crystal Clear</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -78,8 +78,30 @@
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Learn More</a>
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                          Learn More <span class="caret"></span>
+                        </a>
+                        <ul role="presentation" class="dropdown-menu">
+                            <li>
+                                <a href="/History">History</a>
+                            </li>
+                            <li>
+                                <a href="/FAQ">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="news">News and Events</a>
+                            </li>
+                            <li>
+                                <a href="Techs">Meet the Technicians</a>
+                            </li>
+                            <li>
+                                <a href="video">Video Tutorials</a>
+                            </li>
+                            <li>
+                                <a href="/CustPortal">Customer Portal</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a class="page-scroll" href="#updowncheck">Check Network</a>
@@ -102,10 +124,11 @@
                                 <a href="https://voice.crystalclearfiber.com/portal/">Voice</a>
                             </li>
                             <li>
-                                <a href="https://www.directv.com/DTVAPP/login/login.jsp">DirecTV</a>
+                                <a href="https://www.directv.com/DTVAPP/login/login.jsp">DIRECTV</a>
                             </li>
                         </ul>
                       </li>
+                     
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -115,9 +138,10 @@
 
     <header>
         <div class="header-content">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
             <div class="header-content-inner">
                 <!--<h1>A Fiber Optic Service Provider</h1>-->
-                <br><br><br><br><br><br>
+                
                 <!--<a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>-->
             </div>
         </div>
@@ -244,7 +268,7 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Troubleshooting
+                                    Video Tutorials
                                 </div>
                             </div>
                         </div>
@@ -279,7 +303,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <h2 class="section-heading">Contact Us!</h2>
                     <hr class="primary">
                     <p>Give us a call or send us an email and we will get back to you as soon as possible!</p>
                 </div>

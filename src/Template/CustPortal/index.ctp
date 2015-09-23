@@ -132,7 +132,7 @@
                     <a href=https://www.directv.com/DTVAPP/login/login.jsp>
                     <div class="service-box">
                         <i class="fa fa-5x fa-play wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Television</h3>
+                        <h3>DIRECTV</h3>
                     </div>
                     </a>
                 </div>
