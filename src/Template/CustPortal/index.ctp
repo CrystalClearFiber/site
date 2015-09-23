@@ -96,15 +96,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Service Login</h2>
+                    <h1 class="section-heading">Services</h1>
                     <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container" style="width: 10%;">
+            <div class="row" >
+                <div role="group" aria-label="..." >
+                    <a href="https://cableanytime.com/CrystalClearFiber/" class="btn btn-xl btn-primary" >&nbsp&nbspPay Bill&nbsp&nbsp</a>
                 </div>
             </div>
         </div>
         <br>
         <div class="container">
             <div class="row" >
-                <div class="col-lg-3 col-md-6 col-left text-center" style="background-color:rgba(25, 0, 255, 0.2);">
+                <div class="col-lg-3 col-md-6 col-left text-center" >
                     <a href=https://cableanytime.com/CrystalClearFiber/>
                     <div class="service-box" >
                         <i class="fa fa-5x fa-signal wow bounceIn text-primary" ></i>
@@ -113,7 +121,7 @@
                     </div>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-centered text-center" style="background-color:rgba(0, 255, 255, 0.2);">
+                <div class="col-lg-3 col-md-6 col-centered text-center" >
                     <a href=https://www.directv.com/DTVAPP/login/login.jsp>
                     <div class="service-box">
                         <i class="fa fa-5x fa-play wow bounceIn text-primary" data-wow-delay=".1s"></i>
@@ -122,7 +130,7 @@
                     </a>
                 </div>
                                
-                <div class="col-lg-3 col-md-6 col-right text-center" style="background-color:rgba(0, 255, 0, 0.2);">
+                <div class="col-lg-3 col-md-6 col-right text-center" >
                     <a href=https://voice.crystalclearfiber.com/portal/> 
                         <div class="service-box">
                             <i class="fa fa-5x fa-phone wow bounceIn text-primary" data-wow-delay=".3s"></i>

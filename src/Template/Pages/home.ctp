@@ -89,14 +89,17 @@
                     </li>
                     <li role="presentation" class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                          Login <span class="caret"></span>
+                          My Account <span class="caret"></span>
                         </a>
                         <ul role="presentation" class="dropdown-menu">
                             <li>
-                                <a href="https://voice.crystalclearfiber.com/portal/">Voice</a>
+                                <a href="https://cableanytime.com/CrystalClearFiber/">Pay Bill</a>
                             </li>
                             <li>
                                 <a href="https://cableanytime.com/CrystalClearFiber/">Internet</a>
+                            </li>
+                            <li>
+                                <a href="https://voice.crystalclearfiber.com/portal/">Voice</a>
                             </li>
                             <li>
                                 <a href="https://www.directv.com/DTVAPP/login/login.jsp">DirecTV</a>
