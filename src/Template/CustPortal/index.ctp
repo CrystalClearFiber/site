@@ -50,6 +50,10 @@
             float: right;
             margin: 0 auto;
         }
+        .cont1{
+            padding-right: 500px;
+            padding-left: 500px;
+        }
     </style>
 
 </head>
@@ -93,6 +97,9 @@
     </header>
 
     <section id="bg-primary">
+
+        
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -102,11 +109,11 @@
             </div>
         </div>
         <br>
-        <div class="container" style="width: 10%;">
+        <div class="cont1">
             <div class="row" >
-                <div role="group" aria-label="..." >
-                    <a href="https://cableanytime.com/CrystalClearFiber/" class="btn btn-xl btn-primary" >&nbsp&nbspPay Bill&nbsp&nbsp</a>
-                </div>
+                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                        <a href="https://cableanytime.com/CrystalClearFiber/" class="btn btn-xl btn-primary">&nbsp&nbspPay Bill&nbsp&nbsp</a>
+                 </div>
             </div>
         </div>
         <br>
