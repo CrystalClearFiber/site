@@ -82,8 +82,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23c0c0c0&amp;src=crystalclearfiber.com_u2s3hd3n32plelm4j9imu524uc%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FChicago" style=" border:solid 1px #777 " width="750" height="600" frameborder="0" scrolling="no"></iframe>
-                    <a href="/" class="btn btn-default btn-xl">Return Home</a>
+                    <img src="https://s3.amazonaws.com/cctimages/siteimages/newsarticles/CCT+News+Article.png" alt="News Article" />
+                    <!-- <a href="/" class="btn btn-default btn-xl">Return Home</a> -->
                 </div>
             </div>
         </div>
