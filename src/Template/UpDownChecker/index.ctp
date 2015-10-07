@@ -81,7 +81,7 @@ function get_packet_info($string){
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="/">Crystal Clear Technologies</a>
+                <a class="navbar-brand page-scroll" href="/">Crystal Clear</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
