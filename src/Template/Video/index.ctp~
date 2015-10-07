@@ -1,6 +1,7 @@
 <?php
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,18 +17,15 @@
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
 
@@ -50,16 +48,11 @@
             float: right;
             margin: 0 auto;
         }
-        .cont1{
-            padding-right: 500px;
-            padding-left: 500px;
-        }
     </style>
 
 </head>
 
 <body id="page-top">
-
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -79,6 +72,15 @@
                     <li>
                         <a class="page-scroll" href="/">Home</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#routerreboot">Router Reboot</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#ontreboot">ONT Reboot</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#DTVreboot">DirecTV Receiver Reboot</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -94,59 +96,60 @@
                 <!--<a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>-->
             </div>
         </div>
+
     </header>
 
-    <section id="bg-primary">
-
-        
-
+    <section class="bg-primary" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="section-heading">Services</h1>
+                    <h2 class="section-heading">Tutorial and Trouble Shooting Videos</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
-        <br>
-        <div class="cont1">
-            <div class="row" >
-                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
-                        <a href="https://cableanytime.com/CrystalClearFiber/" class="btn btn-xl btn-primary">&nbsp&nbspPay Bill&nbsp&nbsp</a>
-                 </div>
-            </div>
-        </div>
-        <br>
         <div class="container">
-            <div class="row" >
-                <div class="col-lg-3 col-md-6 col-left text-center" >
-                    <a href=https://cableanytime.com/CrystalClearFiber/>
-                    <div class="service-box" >
-                        <i class="fa fa-5x fa-signal wow bounceIn text-primary" ></i>
-                        <h3>Internet</h3>
-                        <p class="text-muted"></p>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-centered text-center" >
-                    <a href=https://www.directv.com/DTVAPP/login/login.jsp>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-centered text-center">
                     <div class="service-box">
-                        <i class="fa fa-5x fa-play wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>DIRECTV</h3>
+                        <h3 id="routerreboot">Reboot Router</h3>
+                        <video controls="controls" width="800" height="600" name="Video Name" src="https://s3.amazonaws.com/cctvideo/NEWSITEVIDS/router.MP4"></video>
                     </div>
-                    </a>
                 </div>
-                               
-                <div class="col-lg-3 col-md-6 col-right text-center" >
-                    <a href=https://voice.crystalclearfiber.com/portal/> 
-                        <div class="service-box">
-                            <i class="fa fa-5x fa-phone wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                            <h3>Voice</h3>
-                        </div>
-                    </a>     
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-centered text-center">
+                    <div class="service-box">
+                        <h3 id="ontreboot">Reboot Optical Network Terminal (ONT)</h3>
+                        <video controls="controls" width="800" height="600" name="Video Name" src="https://s3.amazonaws.com/cctvideo/NEWSITEVIDS/ont.MP4"></video>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-centered text-center">
+                    <div class="service-box">
+                        <h3 id="DTVreboot">Reboot DirecTV Receiver</h3>
+                        <video controls="controls" width="800" height="600" name="Video Name" src="https://s3.amazonaws.com/cctvideo/NEWSITEVIDS/dtvreceiver.MP4"></video>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
 </body>
+
 </html>

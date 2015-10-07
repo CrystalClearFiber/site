@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo 'Crystal Clear Technologies'; ?></title>
+    <title><?php echo 'Crystal Clear'; ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
