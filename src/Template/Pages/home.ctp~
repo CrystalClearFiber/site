@@ -75,21 +75,8 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <li role="presentation" class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                          Services <span class="caret"></span>
-                        </a>
-                        <ul role="presentation" class="dropdown-menu">
-                            <li>
-                                <a class="page-scroll" href="#services">Services</a>
-                            </li>
-                            <li>
-                                <a href="/NewCust">New Customer</a>
-                            </li>
-                            <li>
-                                <a href="/NewInt">New Interest</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li role="presentation" class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
