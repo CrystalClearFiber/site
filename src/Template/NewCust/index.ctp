@@ -95,7 +95,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-left text-center">
                     <div class="service-box">
-                        <a href="/Information?tolgate">
+                        <a href="/Information?tollgate">
                         <i class="fa fa-4x fa-home wow bounceIn text-primary" style="color:purple;"></i>
                         </a>
                         <h3>Tolgate</h3>
@@ -123,7 +123,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-left text-center">
                     <div class="service-box">
-                        <a href="/Information?tolgateapps">
+                        <a href="/Information?tollgateapps">
                         <i class="fa fa-4x fa-home wow bounceIn text-primary"></i>
                         </a>
                         <h3>Tolgate Apartments</h3>
