@@ -87,7 +87,6 @@ $community = ucfirst(substr($_SERVER[REQUEST_URI], 13));
                     <img height="906" width="700" src="https://s3.amazonaws.com/cctimages/CCT+New+Customer+-+<?php echo $community;?>-1.png" alt="Coming Soon!" />
                     <!-- <a href="/" class="btn btn-default btn-xl">Return Home</a> -->
                 </div>
-                <br>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <img height="906" width="700" src="https://s3.amazonaws.com/cctimages/CCT+New+Customer+-+<?php echo $community;?>-2.png" alt=" "/>
                     <!-- <a href="/" class="btn btn-default btn-xl">Return Home</a> -->

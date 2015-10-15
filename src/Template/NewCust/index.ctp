@@ -98,7 +98,7 @@
                         <a href="/Information?tollgate">
                         <i class="fa fa-4x fa-home wow bounceIn text-primary" style="color:purple;"></i>
                         </a>
-                        <h3>Tolgate</h3>
+                        <h3>Tollgate</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-centered text-center">
