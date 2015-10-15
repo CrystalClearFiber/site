@@ -84,20 +84,20 @@ $community = ucfirst(substr($_SERVER[REQUEST_URI], 13));
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <img height="906" width="700" src="https://s3.amazonaws.com/cctimages/CCT+New+Customer+-+<?php echo $community;?>-1.png" />
+                    <img height="906" width="700" src="https://s3.amazonaws.com/cctimages/CCT+New+Customer+-+<?php echo $community;?>-1.png" alt="Coming Soon!" />
                     <!-- <a href="/" class="btn btn-default btn-xl">Return Home</a> -->
                 </div>
                 <br>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <img height="906" width="700" src="https://s3.amazonaws.com/cctimages/CCT+New+Customer+-+<?php echo $community;?>-2.png" alt="News Article" />
+                    <img height="906" width="700" src="https://s3.amazonaws.com/cctimages/CCT+New+Customer+-+<?php echo $community;?>-2.png" alt=""/>
                     <!-- <a href="/" class="btn btn-default btn-xl">Return Home</a> -->
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <img height="906" width="700" src="https://s3.amazonaws.com/cctimages/CCT+New+Customer+-+<?php echo $community;?>-3.png" alt="News Article" />
+                    <img height="906" width="700" src="https://s3.amazonaws.com/cctimages/CCT+New+Customer+-+<?php echo $community;?>-3.png" alt=""/>
                     <!-- <a href="/" class="btn btn-default btn-xl">Return Home</a> -->
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <img height="906" width="700" src="https://s3.amazonaws.com/cctimages/CCT+New+Customer+-+<?php echo $community;?>-4.png" alt="News Article" />
+                    <img height="906" width="700" src="https://s3.amazonaws.com/cctimages/CCT+New+Customer+-+<?php echo $community;?>-4.png" alt=""/>
                     <!-- <a href="/" class="btn btn-default btn-xl">Return Home</a> -->
                 </div>
             </div>
