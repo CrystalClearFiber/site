@@ -126,7 +126,7 @@
                         <a href="/Information?tollgateapps">
                         <i class="fa fa-4x fa-home wow bounceIn text-primary"></i>
                         </a>
-                        <h3>Tolgate Apartments</h3>
+                        <h3>Tollgate Apartments</h3>
                     </div>
                 </div>
                 

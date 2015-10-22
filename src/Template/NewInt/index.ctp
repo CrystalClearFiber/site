@@ -1,7 +1,49 @@
 <?php
-
+        $errName = '';
+        $errEmail = '';
+        $errMessage = '';  
+        $errHuman = '';
+    if (isset($_POST["submit"])) {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
+        $human = intval($_POST['human']);
+        $from = 'Demo Contact Form'; 
+        $to = 'example@bootstrapbay.com'; 
+        $subject = 'Message from Contact Demo ';
+        
+        $body = "From: $name\n E-Mail: $email\n Message:\n $message";
+ 
+        // Check if name has been entered
+        if (!$_POST['name']) {
+            $errName = 'Please enter your name';
+        }
+        
+        // Check if email has been entered and is valid
+        if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+            $errEmail = 'Please enter a valid email address';
+        }
+        
+        //Check if message has been entered
+        if (!$_POST['message']) {
+            $errMessage = 'Please enter your message';
+        }
+        //Check if simple anti-bot test is correct
+        if ($human !== 5) {
+            $errHuman = 'Your anti-spam is incorrect';
+        }
+ 
+        // If there are no errors, send the email
+        if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
+            if (mail ($to, $subject, $body, $from)) {
+                $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
+            } else {
+                $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
+            }
+        }
+    }
 ?>
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -136,27 +178,6 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
-        <div class="header-content">
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <div class="header-content-inner">
-                <!--<h1>A Fiber Optic Service Provider</h1>-->
-                
-                <!--<a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>-->
-            </div>
-        </div>
-    </header>
-
-    <section id="reviews" style="height: 400px">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center" id="thereview" style="font-size: 24px; font-style: oblique;">
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
@@ -173,154 +194,45 @@
     <section id="services">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-left text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-signal wow bounceIn text-primary"></i>
-                        <h3>Internet</h3>
-                        <p class="text-muted">Crystal Clear provides high quality internet service delivering speeds of up to 100 megabits per second!</p>
+                <form class="form-horizontal" role="form" method="post" action="index.php">
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name">
+                            
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-centered text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-play wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Television</h3>
-                        <p class="text-muted">Crystal Clear’s TV and High Definition TV (HDTV) services offer the broadest selection of channels and features available.  With a variety of packages and receivers to choose from, you can define the viewing options that best fit your family’s needs.</p>
-                        <br>
-                        <p class="text-muted">Over 310 Channels Available -  All Local Channels  -  Family Packages  -  Sports Packages  -  Movie & Specialty Packages  -  Latino Packages  -  All National Cable Channels Available  </p>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com">
+                            
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-right text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-phone wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Voice</h3>
-                        <p class="text-muted">Business - class VoIP phone service is available via dependable, high-capacity Optical Fiber.</p>
-                        <br>
-                        <p class="text-muted">Features include:</p>
-                        <p class="text-muted">Long Distance  -  Call Waiting  -  Call Forwarding  -  Messaging  -  Three-way Calling  - Multi-line Systems</p>
+                    <div class="form-group">
+                        <label for="message" class="col-sm-2 control-label">Message</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="4" name="message"></textarea>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/History" class="portfolio-box">
-                        <img src="img/portfolio4/hist1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    History
-                                </div>
-                            </div>
+                    <div class="form-group">
+                        <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+                            
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/FAQ" class="portfolio-box">
-                        <img src="img/portfolio4/FAQ1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    FAQ
-                                </div>
-                            </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/news" class="portfolio-box">
-                        <img src="img/portfolio4/News1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    News / Events
-                                </div>
-                            </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                              
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/Techs" class="portfolio-box">
-                        <img src="img/portfolio4/tech1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Meet the Technicians
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/video" class="portfolio-box">
-                        <img src="img/portfolio4/Vids1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Video Tutorials
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/CustPortal" class="portfolio-box">
-                        <img src="img/portfolio4/Cust1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Customer Portal
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="updowncheck" class="bg-primary">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Outage and Downtime Report</h2>
-                <a href="/UpDownChecker" class="btn btn-default btn-xl wow tada">Check the Network</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Contact Us!</h2>
-                    <hr class="primary">
-                    <p>Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                    <br>
-                    <p>Crystal Clear Technologies, LLC
-                    <br>ATTN: Lockbox Services
-                    <Br>PO Box 934112
-                    <br>Atlanta, GA 31143-4112</p>
-                    <br>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>615-550-4600</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">support@crystalclearfiber.com</a></p>
-                </div>
+                    </div>
+                </form> 
             </div>
         </div>
     </section>
@@ -341,5 +253,5 @@
     <script src="js/review.fade.js"></script>
 
 </body>
-
 </html>
+
