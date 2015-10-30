@@ -75,9 +75,6 @@
                     <li>
                         <a class="page-scroll" href="#about">History</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="/">Home</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -103,6 +100,7 @@
                     <hr class="light">
                     <p class="text-faded">Based in Middle Tennessee, Crystal Clear Technologies began in 2005 with a vision for providing reliable, comprehensive Fiber-To-The-Home service–without the downsides that typically plague this growing approach to community living.</p>
                     <p class="text-faded">Crystal Clear Technologies was founded by a team of successful builders, developers, engineers, Information Technology professionals and project managers whose individual histories reflect the highest standards in those fields. Together, they enable a comprehensive, coordinated approach to Fiber-To-The-Home development, one in which each technology, every step from design to support, is truly an in-house specialty. As a Crystal Clear community reaches completion, there are no “loose ends” waiting to be resolved. Developers have an easy-to-manage, value-adding package of business-class services to offer. And homeowners have the entire range of connectivity services built into a reliable, cost-effective system with on-site support.</p>                 
+                    <a href="/" class="btn btn-default btn-xl">Return Home</a>
                 </div>
             </div>
         </div>

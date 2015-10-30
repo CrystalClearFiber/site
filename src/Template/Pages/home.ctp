@@ -87,8 +87,8 @@
                                 <a href="/NewCust">New Customer</a>
                             </li>
                             <li>
+                                <!--<a href="/UnderConstruction">New Interest</a>-->
                                 <a href="/UnderConstruction">New Interest</a>
-                                <!--<a href="/ContactForm">New Interest</a>-->
                             </li>
                         </ul>
                     </li>
@@ -189,7 +189,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Services</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -334,8 +334,20 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">support@crystalclearfiber.com</a></p>
+                    <p><a href="mailto:support@crystalclearfiber.com">support@crystalclearfiber.com</a></p>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <a href="https://www.facebook.com/crystalclearfibertn" />
+                    <img src="img/facebook_icon.png" alt="facebook" width="50px" height="50px"/>
+                    </a>
+                </div>
+                <!--<div class="col-lg-4 text-center">
+                    <a href="https://www.twitter.com" />
+                    <img src="img/twitter_icon.png" alt="twitter" width="50px" height="50px"/>
+                    </a>
+                </div>-->
             </div>
         </div>
     </section>
