@@ -3,7 +3,7 @@ $name = $_POST["InputName"];
 $email = $_POST["InputEmail"];
 $address = $_POST["InputMessage"];
 
-$myfile = fopen("files/interests.txt", "w") or die("Error submitting request");
+$myfile = fopen("Interests/interests.txt", "w") or die("Error submitting request");
 $txt = "\nName: $name\n" . "Email: $email\n" . "Address: $address\n\n";
 fwrite($myfile, $txt);
 fclose($myfile);
